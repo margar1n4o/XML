@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<tv_programs 
+        xmlns="https://www.w3schools.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.w3schools.com schema-definition.xsd">
+    <tv_program>
+        <show>
+            <title>Приятели</title>
+            <genre>Комедия</genre>
+            <description>Група приятели в Ню Йорк.</description>
+            <episode>
+                <episode_number>1</episode_number>
+                <air_date>1994-09-22</air_date>
+                <actors>
+                    <actor>
+                        <name>Дженифър Анистън</name>
+                        <role>Рейчъл Грийн</role>
+                    </actor>
+                    <actor>
+                        <name>Кортни Кокс</name>
+                        <role>Моника Гелър</role>
+                    </actor>
+                </actors>
+            </episode>
+            <episode>
+                <episode_number>2</episode_number>
+                <air_date>1994-09-29</air_date>
+                <actors>
+                    <actor>
+                        <name>Дейвид Шуимър</name>
+                        <role>Рос Гелър</role>
+                    </actor>
+                    <actor>
+                        <name>Лийза Кудроу</name>
+                        <role>Фийби Буфе</role>
+                    </actor>
+                </actors>
+            </episode>
+        </show>
+    </tv_program>
+</tv_programs>

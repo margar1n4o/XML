@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TVPrograms>
+    <Show>
+        <Title>The Office</Title>
+        <Genre>Comedy</Genre>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>2005-03-24</AirDate>
+            <ActorsCount>2</ActorsCount>
+        </Episode>
+    </Show>
+    <Show>
+        <Title>Stranger Things</Title>
+        <Genre>Sci-Fi, Horror</Genre>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>2016-07-15</AirDate>
+            <ActorsCount>2</ActorsCount>
+        </Episode>
+    </Show>
+    <Show>
+        <Title>Friends</Title>
+        <Genre>Comedy</Genre>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>1994-09-22</AirDate>
+            <ActorsCount>2</ActorsCount>
+        </Episode>
+    </Show>
+    <Show>
+        <Title>Breaking Bad</Title>
+        <Genre>Drama, Crime</Genre>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>2008-01-20</AirDate>
+            <ActorsCount>2</ActorsCount>
+        </Episode>
+    </Show>
+</TVPrograms>

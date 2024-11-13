@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TVPrograms>
+    <Show>
+        <Title>The Office</Title>
+        <Genre>Comedy</Genre>
+        <Description>A mockumentary on a group of typical office workers.</Description>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>2005-03-24</AirDate>
+            <Actors>
+                <Actor>
+                    <Name>Steve Carell</Name>
+                    <Role>Michael Scott</Role>
+                </Actor>
+                <Actor>
+                    <Name>John Krasinski</Name>
+                    <Role>Jim Halpert</Role>
+                </Actor>
+            </Actors>
+        </Episode>
+    </Show>
+    <Show>
+        <Title>Stranger Things</Title>
+        <Genre>Sci-Fi, Horror</Genre>
+        <Description>A group of kids encounters supernatural forces in their town.</Description>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>2016-07-15</AirDate>
+            <Actors>
+                <Actor>
+                    <Name>Millie Bobby Brown</Name>
+                    <Role>Eleven</Role>
+                </Actor>
+                <Actor>
+                    <Name>Finn Wolfhard</Name>
+                    <Role>Mike Wheeler</Role>
+                </Actor>
+            </Actors>
+        </Episode>
+    </Show>
+    <Show>
+        <Title>Friends</Title>
+        <Genre>Comedy</Genre>
+        <Description>A group of friends in New York City.</Description>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>1994-09-22</AirDate>
+            <Actors>
+                <Actor>
+                    <Name>Jennifer Aniston</Name>
+                    <Role>Rachel Green</Role>
+                </Actor>
+                <Actor>
+                    <Name>Courteney Cox</Name>
+                    <Role>Monica Geller</Role>
+                </Actor>
+            </Actors>
+        </Episode>
+    </Show>
+    <Show>
+        <Title>Breaking Bad</Title>
+        <Genre>Drama, Crime</Genre>
+        <Description>A high school chemistry teacher turned methamphetamine manufacturer.</Description>
+        <Episode>
+            <EpisodeNumber>1</EpisodeNumber>
+            <AirDate>2008-01-20</AirDate>
+            <Actors>
+                <Actor>
+                    <Name>Bryan Cranston</Name>
+                    <Role>Walter White</Role>
+                </Actor>
+                <Actor>
+                    <Name>Aaron Paul</Name>
+                    <Role>Jesse Pinkman</Role>
+                </Actor>
+            </Actors>
+        </Episode>
+    </Show>
+</TVPrograms>

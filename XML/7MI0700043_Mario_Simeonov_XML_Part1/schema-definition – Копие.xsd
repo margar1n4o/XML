@@ -1,0 +1,29 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="element">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="xs:complexType" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="name" use="optional"/>
+      <xs:attribute type="xs:QName" name="type" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sequence">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xs:element" maxOccurs="unbounded" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation> Име на актьора  Роля на актьора в предаването  Име на актьора  Номер на епизода  Дата на излъчване на епизода  Дефиниране на до 15 актьори за всеки епизод  Заглавие на телевизионното предаване  Жанр на телевизионното предаване  Описание на телевизионното предаване  Дефиниране на до 15 епизода за всяко предаване  Дефиниране на до 15 телевизионни предавания </xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="complexType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xs:sequence"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

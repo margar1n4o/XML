@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<tv_programs 
+        xmlns="https://www.w3schools.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.w3schools.com schema-definition.xsd">
+    <tv_program>
+        <show>
+            <title>Бригада</title>
+            <genre>Драма, Криминален</genre>
+            <description>Сериал за група престъпници в София.</description>
+            <episode>
+                <episode_number>1</episode_number>
+                <air_date>2002-03-10</air_date>
+                <actors>
+                    <actor>
+                        <name>Владимир Пенев</name>
+                        <role>Цветан</role>
+                    </actor>
+                    <actor>
+                        <name>Михаил Билалов</name>
+                        <role>Део</role>
+                    </actor>
+                </actors>
+            </episode>
+            <episode>
+                <episode_number>2</episode_number>
+                <air_date>2002-03-17</air_date>
+                <actors>
+                    <actor>
+                        <name>Димитър Рачков</name>
+                        <role>Коко</role>
+                    </actor>
+                    <actor>
+                        <name>Александър Шопов</name>
+                        <role>Звездата</role>
+                    </actor>
+                </actors>
+            </episode>
+        </show>
+    </tv_program>
+</tv_programs>

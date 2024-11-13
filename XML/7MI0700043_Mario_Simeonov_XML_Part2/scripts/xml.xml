@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Дефиниране на схемата -->
+
+<tv_programs xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Дефиниране на структурата на телевизионна програма -->
+    <xs:element name="tv_program">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Дефиниране на до 15 телевизионни предавания -->
+                <xs:element name="show">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Заглавие на телевизионното предаване -->
+                            <xs:element name="title" type="xs:string"/>
+                            <!-- Жанр на телевизионното предаване -->
+                            <xs:element name="genre" type="xs:string"/>
+                            <!-- Описание на телевизионното предаване -->
+                            <xs:element name="description" type="xs:string"/>
+                            <!-- Дефиниране на до 15 епизода за всяко предаване -->
+                            <xs:element name="episode">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- Номер на епизода -->
+                                        <xs:element name="episode_number" type="xs:integer"/>
+                                        <!-- Дата на излъчване на епизода -->
+                                        <xs:element name="air_date" type="xs:date"/>
+                                        <!-- Дефиниране на до 15 актьори за всеки епизод -->
+                                        <xs:element name="actors">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <!-- Име на актьора -->
+                                                    <xs:element name="actor">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <!-- Име на актьора -->
+                                                                <xs:element name="name" type="xs:string"/>
+                                                                <!-- Роля на актьора в предаването -->
+                                                                <xs:element name="role" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Добавяне на примерно съдържание -->
+
+    <tv_program>
+        <show>
+            <title>The Office</title>
+            <genre>Comedy</genre>
+            <description>A mockumentary on a group of typical office workers.</description>
+            <episode>
+                <episode_number>1</episode_number>
+                <air_date>2005-03-24</air_date>
+                <actors>
+                    <actor>
+                        <name>Steve Carell</name>
+                        <role>Michael Scott</role>
+                    </actor>
+                    <actor>
+                        <name>John Krasinski</name>
+                        <role>Jim Halpert</role>
+                    </actor>
+                </actors>
+            </episode>
+        </show>
+
+        <show>
+            <title>Stranger Things</title>
+            <genre>Sci-Fi, Horror</genre>
+            <description>A group of kids encounters supernatural forces in their town.</description>
+            <episode>
+                <episode_number>1</episode_number>
+                <air_date>2016-07-15</air_date>
+                <actors>
+                    <actor>
+                        <name>Millie Bobby Brown</name>
+                        <role>Eleven</role>
+                    </actor>
+                    <actor>
+                        <name>Finn Wolfhard</name>
+                        <role>Mike Wheeler</role>
+                    </actor>
+                </actors>
+            </episode>
+        </show>
+
+        <show>
+            <title>Friends</title>
+            <genre>Comedy</genre>
+            <description>A group of friends in New York City.</description>
+            <episode>
+                <episode_number>1</episode_number>
+                <air_date>1994-09-22</air_date>
+                <actors>
+                    <actor>
+                        <name>Jennifer Aniston</name>
+                        <role>Rachel Green</role>
+                    </actor>
+                    <actor>
+                        <name>Courteney Cox</name>
+                        <role>Monica Geller</role>
+                    </actor>
+                </actors>
+            </episode>
+        </show>
+
+        <show>
+            <title>Breaking Bad</title>
+            <genre>Drama, Crime</genre>
+            <description>A high school chemistry teacher turned methamphetamine manufacturer.</description>
+            <episode>
+                <episode_number>1</episode_number>
+                <air_date>2008-01-20</air_date>
+                <actors>
+                    <actor>
+                        <name>Bryan Cranston</name>
+                        <role>Walter White</role>
+                    </actor>
+                    <actor>
+                        <name>Aaron Paul</name>
+                        <role>Jesse Pinkman</role>
+                    </actor>
+                </actors>
+            </episode>
+        </show>
+    </tv_program>
+</tv_programs>
